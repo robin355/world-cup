@@ -1,0 +1,101 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Hind+Siliguri&family=Martel:wght@300&family=Montserrat:wght@600&family=PT+Serif&family=Poppins:wght@600&family=Roboto:wght@500&family=Ubuntu:ital,wght@0,500;1,400&display=swap');
+
+/* common style  */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* header part style */
+.container {
+    width: 1321px;
+    height: 646px;
+    background-color: #161616;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.half-width {
+    width: 50%;
+    margin-left: 60px;
+}
+
+.half-width .section-title {
+    color: #FFFFFF;
+    font-size: 70px;
+}
+
+.half-width .section-detail {
+    color: #FFFFFF;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.half-width a {
+    text-decoration: none;
+    color: white;
+    background-color: #DD0000;
+    border-radius: 5px;
+    padding: 16px 25px;
+}
+
+.half-width img {
+    width: 581px;
+    height: 613px;
+}
+
+/* Main Area start */
+.main-area {
+    display: flex;
+    column-gap: 10px;
+}
+
+
+.upcomig-area {
+    background-color: #161616;
+    height: 312px;
+    width: 312px;
+
+}
+
+.upcomig-area a {
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.blogs {
+    width: calc(100% - 312px);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.blog {
+    width: 312px;
+    box-shadow: 3px 3px 5px gray;
+    border-radius: 10px;
+}
+
+.blog-info {
+    margin-left: 10px;
+}
+
+.blog .icons {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5px;
+}
+
+
+
+/* Footer style */
+.footer {
+    background-color: #161616;
+}
